@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SpringSport - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPA33B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SpringSport.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSPA33B.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPA33C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SpringSport.pdb" /debug /machine:I386 /out:"Debug/SpringSport.exe" /pdbtype:sept 
+.\Debug\DlgSet.obj
+.\Debug\MainFrm.obj
+.\Debug\Spring.obj
+.\Debug\SpringSport.obj
+.\Debug\SpringSportDoc.obj
+.\Debug\SpringSportView.obj
+.\Debug\StdAfx.obj
+.\Debug\SpringSport.res
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSPA33C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Spring.cpp
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(29) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(72) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(82) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(83) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(93) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(93) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(94) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(94) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(97) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(98) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(99) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(121) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(127) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(150) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(156) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(180) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(186) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(210) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(216) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(226) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(236) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\11392\Desktop\SpringSport\SpringSport\Spring.cpp(237) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+SpringSport.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

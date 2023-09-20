@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JWGLSystemODBC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/JWGLSystemODBC.res" /d "_DEBUG" /d "_AFXDLL" "E:\VC++6.0\MyProjects\JWGLSystemODBC\JWGLSystemODBC.rc"" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP306A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/JWGLSystemODBC.pdb" /debug /machine:I386 /out:"Debug/JWGLSystemODBC.exe" /pdbtype:sept 
+".\Debug\JWGLSystemODBC.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\JWGLSystemODBCDoc.obj"
+".\Debug\JWGLSystemODBCView.obj"
+".\Debug\JWGLSystemODBCSet.obj"
+".\Debug\JWGLSystemODBC.res"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSP306A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+LINK : fatal error LNK1168: cannot open Debug/JWGLSystemODBC.exe for writing
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+JWGLSystemODBC.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TankWar - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP1820.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TankWar.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC++6.0\MyProjects\TankWar\TankProcess.cpp"
+"E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSP1820.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP1821.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TankWar.pdb" /debug /machine:I386 /out:"Debug/TankWar.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TankProcess.obj"
+".\Debug\TankWar.obj"
+".\Debug\TankWarDoc.obj"
+".\Debug\TankWarView.obj"
+".\Debug\TargetProcess.obj"
+".\Debug\TankWar.res"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSP1821.tmp"
+<h3>Output Window</h3>
+Compiling...
+TankProcess.cpp
+TargetProcess.cpp
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(136) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(136) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(137) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(137) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(138) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(138) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(139) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(139) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\TankWar\TargetProcess.cpp(153) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TankWar.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HuaCirTriRec - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPA707.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/HuaCirTriRec.pch" /YX"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSPA707.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPA708.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HuaCirTriRec.pdb" /debug /machine:I386 /out:"Debug/HuaCirTriRec.exe" /pdbtype:sept 
+".\Debug\HuaCirTriRec.obj"
+".\Debug\HuaCirTriRecDoc.obj"
+".\Debug\HuaCirTriRecView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HuaCirTriRec.res"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSPA708.tmp"
+<h3>Output Window</h3>
+Compiling...
+HuaCirTriRecView.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(95) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(95) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(95) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(95) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(101) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(101) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(101) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(101) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(110) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(110) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(110) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(110) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(119) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(120) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(121) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(122) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(123) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(124) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(125) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(233) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(234) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(235) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(246) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(247) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(249) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(250) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(261) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(262) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(263) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(264) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(266) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(267) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(319) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(408) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(409) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(423) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\HuaCirTriRec\HuaCirTriRecView.cpp(425) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+HuaCirTriRec.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

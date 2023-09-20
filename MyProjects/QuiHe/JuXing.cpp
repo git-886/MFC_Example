@@ -1,0 +1,34 @@
+// JuXing.cpp: implementation of the CJuXing class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "JuXing.h"
+#include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CJuXing::CJuXing()
+{
+	m_x = 50;//成员变量初始化
+	m_y = 50;
+	m_w = 100;
+	m_h = 200;
+}
+
+CJuXing::~CJuXing()
+{
+
+}
+
+
+//构造函数与构析函数
+/*
+void main()
+{
+	CJuXing jx;
+	jx.m_y = 300;
+	printf("%d,%d\n",jx.m_x,jx.m_y);
+}
+*/

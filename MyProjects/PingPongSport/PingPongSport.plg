@@ -1,0 +1,170 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PingPongSport - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPB29A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PingPongSport.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSPB29A.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPB29B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PingPongSport.pdb" /debug /machine:I386 /out:"Debug/PingPongSport.exe" /pdbtype:sept 
+.\Debug\DataProcess.obj
+.\Debug\DlgPingPongParameterSet.obj
+.\Debug\MainFrm.obj
+.\Debug\PingPongSport.obj
+.\Debug\PingPongSportDoc.obj
+.\Debug\PingPongSportView.obj
+.\Debug\StdAfx.obj
+.\Debug\PingPongSport.res
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSPB29B.tmp"
+<h3>Output Window</h3>
+Compiling...
+DataProcess.cpp
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(30) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(36) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(37) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(49) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(51) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(52) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(62) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(106) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(107) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(107) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(108) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(109) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(109) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(110) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(112) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(112) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(113) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(114) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(114) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(123) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(124) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(125) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(125) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(127) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(127) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(128) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(129) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(129) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(131) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(131) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(132) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(133) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(134) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(134) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(136) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(136) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(137) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(138) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(138) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(140) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(140) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(143) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(144) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(150) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(150) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(150) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(150) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(163) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(163) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(164) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(167) : warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(173) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(176) : warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(177) : warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(178) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(178) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(178) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(178) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(191) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(192) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(209) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(237) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(237) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(239) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(239) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(242) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(242) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(245) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(245) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(248) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(248) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(251) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(251) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(261) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(261) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(265) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(265) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(273) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(273) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(276) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(276) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(282) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(282) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(284) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(284) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(287) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(287) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(289) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(289) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(294) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(294) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(297) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(297) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(300) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(300) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(309) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(309) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(313) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(313) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(321) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(321) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(324) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(324) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(329) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(329) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(335) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(335) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(347) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(347) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(355) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(355) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(362) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(362) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(370) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(370) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(377) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(377) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(385) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(385) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(399) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(399) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(407) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(407) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(414) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(414) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(422) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(422) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(429) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(429) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(437) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\PingPongSport\DataProcess.cpp(437) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+PingPongSport.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TankGame - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPE4A5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TankGame.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\allsoftware\MyProjects\TankGame\TankWar.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSPE4A5.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPE4A6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TankGame.pdb" /debug /machine:I386 /out:"Debug/TankGame.exe" /pdbtype:sept 
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\TankGame.obj
+.\Debug\TankGameDoc.obj
+.\Debug\TankGameView.obj
+.\Debug\TankWar.obj
+.\Debug\TankGame.res
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSPE4A6.tmp"
+<h3>Output Window</h3>
+Compiling...
+TankWar.cpp
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(94) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(111) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(113) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(114) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(115) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(126) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(127) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(128) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(188) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(221) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(222) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(223) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(224) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(238) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(239) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(240) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(249) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(293) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(294) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(295) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(296) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(304) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(279) : warning C4101: 'd6' : unreferenced local variable
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(279) : warning C4101: 'd7' : unreferenced local variable
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(328) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(329) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(330) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(331) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(341) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(343) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(344) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(345) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(346) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(352) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(378) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(422) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(423) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(424) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(425) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(426) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(406) : warning C4101: 'd5' : unreferenced local variable
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(406) : warning C4101: 'd6' : unreferenced local variable
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(406) : warning C4101: 'd7' : unreferenced local variable
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(439) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(441) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(442) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(443) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(453) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(454) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(455) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(464) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(464) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(465) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(465) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(466) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(466) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(467) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(467) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(485) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(520) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(550) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(551) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(552) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(553) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(554) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(536) : warning C4101: 'd5' : unreferenced local variable
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(536) : warning C4101: 'd6' : unreferenced local variable
+D:\allsoftware\MyProjects\TankGame\TankWar.cpp(536) : warning C4101: 'd7' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+TankGame.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

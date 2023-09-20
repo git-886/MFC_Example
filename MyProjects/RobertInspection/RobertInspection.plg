@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RobertInspection - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP488D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RobertInspection.pch" /YX"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC++6.0\MyProjects\RobertInspection\PSO.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSP488D.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP488E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/RobertInspection.pdb" /debug /machine:I386 /out:"Debug/RobertInspection.exe" /pdbtype:sept 
+".\Debug\CarRobot.obj"
+".\Debug\DlgInitCarPosLeakPointCheck.obj"
+".\Debug\DlgRotateParameterSet.obj"
+".\Debug\MainFrm.obj"
+".\Debug\RobertInspection.obj"
+".\Debug\RobertInspectionDoc.obj"
+".\Debug\RobertInspectionView.obj"
+".\Debug\Scene.obj"
+".\Debug\StdAfx.obj"
+".\Debug\UAV.obj"
+".\Debug\RobertInspection.res"
+".\Debug\PSO.obj"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSP488E.tmp"
+<h3>Output Window</h3>
+Compiling...
+PSO.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+RobertInspection.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

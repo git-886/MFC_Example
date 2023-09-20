@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SpringSport - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPB238.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SpringSport.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSPB238.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPB239.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SpringSport.pdb" /debug /machine:I386 /out:"Debug/SpringSport.exe" /pdbtype:sept 
+.\Debug\DlgParameterSet.obj
+.\Debug\MainFrm.obj
+.\Debug\SpringProcess.obj
+.\Debug\SpringSport.obj
+.\Debug\SpringSportDoc.obj
+.\Debug\SpringSportView.obj
+.\Debug\StdAfx.obj
+.\Debug\SpringSport.res
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSPB239.tmp"
+<h3>Output Window</h3>
+Compiling...
+SpringProcess.cpp
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(20) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(21) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(22) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(23) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(26) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(27) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(28) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(29) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(89) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(115) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(141) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(166) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(215) : warning C4101: 'j' : unreferenced local variable
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(252) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(253) : warning C4101: 'j' : unreferenced local variable
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(276) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(276) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(278) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(278) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(282) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(282) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(284) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(284) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(289) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(289) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(289) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(289) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(293) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(293) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(295) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(295) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(300) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(300) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(300) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(300) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(306) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\allsoftware\MyProjects\SpringSport\SpringProcess.cpp(307) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+SpringSport.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

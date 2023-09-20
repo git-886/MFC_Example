@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SetRobot - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP6311.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SetRobot.pdb" /debug /machine:I386 /out:"Debug/SetRobot.exe" /pdbtype:sept 
+".\Debug\Ado.obj"
+".\Debug\DlgControlPanel.obj"
+".\Debug\DlgRobotParameter.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Robots.obj"
+".\Debug\SetRobot.obj"
+".\Debug\SetRobotDoc.obj"
+".\Debug\SetRobotView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SetRobot.res"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSP6311.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+SetRobot.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

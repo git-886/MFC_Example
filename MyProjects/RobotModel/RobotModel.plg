@@ -1,0 +1,177 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RobotModel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP66C8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RobotModel.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC++6.0\MyProjects\RobotModel\Robot.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSP66C8.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP66C9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/RobotModel.pdb" /debug /machine:I386 /out:"Debug/RobotModel.exe" /pdbtype:sept 
+".\Debug\Ado.obj"
+".\Debug\DlgCreateRobot.obj"
+".\Debug\DlgDeleteRobot.obj"
+".\Debug\DlgRobotParameterSet.obj"
+".\Debug\DlgSaveRobotToFile.obj"
+".\Debug\MainFrm.obj"
+".\Debug\OpenRobot.obj"
+".\Debug\Robot.obj"
+".\Debug\RobotModel.obj"
+".\Debug\RobotModelDoc.obj"
+".\Debug\RobotModelView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\RobotModel.res"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSP66C9.tmp"
+<h3>Output Window</h3>
+Compiling...
+Robot.cpp
+e:\vc++6.0\myprojects\robotmodel\debug\msado15.tlh(478) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(28) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(29) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(164) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(167) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(167) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(167) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(167) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(169) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(170) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(172) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(172) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(172) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(172) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(174) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(175) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(179) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(179) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(179) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(179) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(182) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(182) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(182) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(182) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(187) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(188) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(189) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(190) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(191) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(194) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(195) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(197) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(197) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(197) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(197) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(199) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(203) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(203) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(203) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(203) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(205) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(206) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(209) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(209) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(209) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(209) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(211) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(212) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(215) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(215) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(215) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(215) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(218) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(219) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(222) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(225) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(225) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(226) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(227) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(228) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(228) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(229) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(230) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(231) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(231) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(232) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(233) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(234) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(234) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(235) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(236) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(237) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(237) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(240) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(240) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(240) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(240) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(245) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(249) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(249) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(249) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(249) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(251) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(255) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(255) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(255) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(255) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(158) : warning C4101: 'a' : unreferenced local variable
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(158) : warning C4101: 'b' : unreferenced local variable
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(273) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(275) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(277) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(279) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(281) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(283) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(285) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(287) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(289) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(291) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(293) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(295) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(297) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(299) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(301) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(303) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(305) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(321) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(322) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(323) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(324) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(325) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(326) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(327) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(328) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(329) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(330) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(331) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(332) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(333) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(334) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(335) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(336) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(337) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(360) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(361) : warning C4305: '+=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(367) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(368) : warning C4305: '+=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(383) : warning C4305: '-=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(384) : warning C4305: '-=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(385) : warning C4305: '-=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(389) : warning C4305: '+=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(390) : warning C4305: '+=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\RobotModel\Robot.cpp(391) : warning C4305: '+=' : truncation from 'const double' to 'float'
+Linking...
+
+
+
+<h3>Results</h3>
+RobotModel.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

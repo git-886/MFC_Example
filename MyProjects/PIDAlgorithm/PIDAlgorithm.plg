@@ -1,0 +1,181 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PIDAlgorithm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP62D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PIDAlgorithm.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSP62D.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSP62E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PIDAlgorithm.pdb" /debug /machine:I386 /out:"Debug/PIDAlgorithm.exe" /pdbtype:sept 
+".\Debug\DlgPIDParameterSet.obj"
+".\Debug\MainFrm.obj"
+".\Debug\PIDAlgorithm.obj"
+".\Debug\PIDAlgorithmDoc.obj"
+".\Debug\PIDAlgorithmView.obj"
+".\Debug\PIDControl.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PIDAlgorithm.res"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSP62E.tmp"
+<h3>Output Window</h3>
+Compiling...
+PIDControl.cpp
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(25) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(37) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(39) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(47) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(54) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(55) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(114) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(115) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(118) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(121) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(122) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(125) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(130) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(131) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(134) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(137) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(138) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(141) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(146) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(147) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(150) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(153) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(154) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(157) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(162) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(163) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(166) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(169) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(170) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(173) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(182) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(183) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(184) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(194) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(195) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(196) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(206) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(207) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(208) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(218) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(219) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(220) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(285) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(287) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(303) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(315) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(355) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(357) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(398) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(399) : warning C4305: '+=' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(448) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(475) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(518) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(575) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(575) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(577) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(577) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(580) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(580) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(583) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(583) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(586) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(586) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(589) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(589) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(599) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(599) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(603) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(603) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(611) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(611) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(614) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(614) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(620) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(620) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(622) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(622) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(625) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(625) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(627) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(627) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(632) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(632) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(635) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(635) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(638) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(638) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(643) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(643) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(645) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(645) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(646) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(646) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(647) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(647) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(651) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(651) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(653) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(653) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(656) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(656) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(657) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(657) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(678) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(681) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(682) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(690) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(691) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(697) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(698) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(703) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(704) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(711) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(712) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(717) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(718) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(727) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(728) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(733) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(734) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(745) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(746) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(747) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(755) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(756) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(766) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(767) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(772) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(773) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(782) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(783) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(788) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(789) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(799) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(800) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(801) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(808) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(809) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(820) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(821) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(826) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\VC++6.0\MyProjects\PIDAlgorithm\PIDControl.cpp(827) : warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+PIDAlgorithm.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

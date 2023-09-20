@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Robot - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPE41A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Robot.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC++6.0\MyProjects\Robot\RobotView.cpp"
+"E:\VC++6.0\MyProjects\Robot\RobotOpen.cpp"
+]
+Creating command line "cl.exe @C:\Users\11392\AppData\Local\Temp\RSPE41A.tmp" 
+Creating temporary file "C:\Users\11392\AppData\Local\Temp\RSPE41B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Robot.pdb" /debug /machine:I386 /out:"Debug/Robot.exe" /pdbtype:sept 
+".\Debug\Ado.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Robot.obj"
+".\Debug\Robot1.obj"
+".\Debug\RobotDoc.obj"
+".\Debug\RobotView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Robot.res"
+".\Debug\DlgOpenRobot.obj"
+".\Debug\OpenRobot.obj"
+".\Debug\RobotOpen.obj"
+]
+Creating command line "link.exe @C:\Users\11392\AppData\Local\Temp\RSPE41B.tmp"
+<h3>Output Window</h3>
+Compiling...
+RobotView.cpp
+e:\vc++6.0\myprojects\robot\debug\msado15.tlh(478) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\VC++6.0\MyProjects\Robot\RobotView.cpp(112) : error C2015: too many characters in constant
+RobotOpen.cpp
+Generating Code...
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Robot.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
